@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>MY PORTFOLIO</title>
+        <link rel="stylesheet" href="sasmit potfolio.css">
+        <script src="https://unpkg.com/phosphor-icons"></script>
+        
+    </head>
+    <body>
+    
+    <ul class="menu">
+        <li style="--bg-color: #a9c700;">
+            <span class="icon"><i class="ph-house"></i></span>
+            <span ><a href="#home">Home</span></a>
+        </li>
+        <li style="--bg-color: #0c68a5;">
+            <span class="icon"><i class="ph-phone"></i></span>
+            <span class="text"><a href="#contact">Contact</span></a>
+        </li>
+        <li style="--bg-color: #E9724C;">
+            <span class="icon"><i class="ph-user"></i></span>
+            <span class="text"><a href="#about">About</span></a>
+        </li>
+        <li style="--bg-color: #C5283D;">
+            <span class="icon"><i class="ph-cards"></i></span>
+            <span class="text"><a href="#Projects">Projects</span></a>
+        </li>
+
+        <li style="--bg-color: #54bcce;">
+            <span class="icon"><i class="ph-pencil-simple"></i></span>
+            <span class="text">cLiCkS</span>
+        </li>
+    </ul>
+    <section id="home" class="sec1">
+        <div class="container">
+            <div class="box1">
+                <img src="image1.jpg">
+                <div class="txt1">
+                    Hi my name is <br>Sasmit and I'm a <li>passionate coder. </li></div>
+            </div>
+        </div>
+    </section>
+
+<center><hr></center>
+
+<section id="contact" class="sec2">
+<center><ul class="wrapper">
+    <li class="icon facebook"><a href="https://www.instagram.com/sasmitbhattacharya/"><img src="istg-icon.png"></a>
+      <span class="tooltip"><a href="">Instagram</a></span>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </li>
+    <li class="icon twitter"><a href="https://www.linkedin.com/in/aniket-verma-87a146233/"><img src="linkedin.png"></a>
+      <span class="tooltip"><a href="">Linkedin</a></span>
+      <span><i class="fab fa-twitter"></i></span>
+    </li>
+    <li class="icon instagram"><a href="https://www.hackerrank.com/profile/sb4749"><img src="hackerRanklog.png"></a>
+      <span class="tooltip">HackerRank</a></span>
+      <span><i class="fab fa-instagram"></i></span>
+    </li>
+    <li class="icon github"><a href="https://github.com/sasmit04"><img src="gitlog.png"></a>
+      <span class="tooltip">Github</a></span>
+      <span><i class="fab fa-github"></i></span>
+    </li>
+    <li class="icon youtube"><a href="sb4749@srmist.edu.in"><img src="gmaillog.png"></a>
+      <span class="tooltip"><a href="">Gmail</a></span>
+      <span><i class="fab fa-youtube"></i></span>
+    </li>
+  </ul></center></section>
+
+<center><hr></center>
+
+    <section id="about" class="sec3">
+        <div class="container">
+            <div class="box2">
+                <center><h1>ABOUT</h1></center>
+                <shape class="shape"><shape class="shape1"><shape class="shape2"><img src="photo.jpg"></shape></shape></shape>
+                <div class="txt2">
+                <ul class="abo">
+                    <li>Name: SASMIT BHATTACHARYA </li>
+                    <li>Attending SRMIST, Kattankulathur, Chennai,Tamil Nadu </li>
+                    <li>Mail: sb4749@srmist.edu.in</li></ul>
+                    <ul>
+                    <hr class="hr1">
+                    <li class="intro">
+                        <h1>INTRODUCTION:</h1>
+                    I am a second-year Computer Science and Engineering (CSE)
+                    student at SRM Institute of Science and Technology (SRMIST) with
+                    a passion for exploring the world of technology and its applications.
+                    Currently, I am gaining a strong foundation in core computer
+                    science concepts and practical skills at SRMIST.</li><hr>
+                    <li class="edu">
+                    <h1>Education:</h1>
+                    - Bachelor of Technology (B.Tech.) in Computer Science and
+                    Engineering
+                    SRM Institute of Science and Technology (SRMIST) 2nd-Year.</li><hr>
+                    <li class="skills">
+                        <h1>Skills:</h1>
+                    - Programming Languages: Proficient in C , C++ , Python.<br>
+                    - Web Development: HTML, CSS.<br>
+                    -Photography<br>
+                    -Video Editing<br>
+                    - Problem Solving and Algorithm Design.<br>
+                    - Database Management Systems.<br>
+                    - Object-Oriented Programming (OOP) concepts.<br>
+                    - Teamwork and Collaboration.<br>
+                    - Strong analytical and problem-solving abilities.</li><hr>
+                    <li class="intr"><h1>Personal Interests:</h1>
+                    - Coding<br>
+                    -Web Dev<br>
+                    -Photography<br>
+                    -Competitive Programming<br>
+                    -Book Reading<br>
+                    -Football<br>
+                    -Gaming<br>
+                    </li><hr>
+                    <li class="main">
+                        <h1>CONCLUSION:</h1>
+                        I am a passionate coder with a love for turning ideas into functional and elegant solutions.
+                        A dedicated problem solver, turning challenges into opportunities through efficient and effective coding solutions.
+                        Tech enthusiast committed to staying at the forefront of the ever-evolving world of coding and development</li><hr>
+                </ul></div>
+            </div>
+        </div>
+    </section>
+    <center><hr></center>
+    <section id="Projects" class="sec4">
+        <div class="container">
+            <div class="box4">
+                <img src="eatsleep.jpg">
+                <div class="txt4">
+                    Here are the<br><li>Projects</li>I have worked on</div>
+                    <a href="https://github.com/sasmit04?tab=projects" class="btn">Open Github</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(fuction(){
+                $(window).scroll(function(){
+                    if ($(this).scrolltop()>550){
+                        $('.navbar').addClass('solid');
+                        $('back-to-top').addClass('visible');
+                    }
+                    else{
+                        $('.navbar').removeClass('solid');
+                        $('.back-to-top').removeClass('visible');
+                    }
+                    
+                })
+            });
+        </script>
+        <script>
+            $("a").on('click', function (event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+            window.location.hash = hash;
+          });
+        }
+    });
+
+  </script>
+</body>
+</html>
