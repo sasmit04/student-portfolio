@@ -1,2 +1,2 @@
-# student-portfolio
+# Student-portfolio
 My portfolio
